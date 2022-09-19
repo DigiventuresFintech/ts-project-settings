@@ -1,5 +1,5 @@
-const world = "world";
-
-export function hello(who: string = world): string {
-  return `Hello ${who}! `;
+export function index(a1: string) {
+  return `index file with param ${a1}`;
 }
+
+export default index;
